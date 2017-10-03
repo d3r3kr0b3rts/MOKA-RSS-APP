@@ -15,7 +15,6 @@ include ('./be/db/fetchoncall.php');
           <th><?php echo $oncallname; ?></th></tr>
           <tr><td style="text-align:right"><a class="btn btn-secondary d-inline" style="padding:1px;border:solid 1px white;" href="tel:<?php echo $oncallnumber; ?>"><?php echo $oncallnumber; ?></a></td>
         </tr>
-
       </table>
     </div>
   </div>
